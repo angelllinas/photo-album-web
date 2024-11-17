@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\views\\photo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\views\\photo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\views\\photo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\views\\photo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\models\\photoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\models\\photoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|c:\\users\\angelllinas\\documents\\vs projects\\photoalbumweb\\photoalbumweb\\views\\photo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78BFDEE8-6B9F-4A2F-B35F-E16A60573BFE}|PhotoAlbumWeb\\PhotoAlbumWeb.csproj|solutionrelative:photoalbumweb\\views\\photo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "PhotoAlbumWeb\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:34:26.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhotoBoard.cs",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Models\\PhotoBoard.cs",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Models\\PhotoBoard.cs",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Models\\PhotoBoard.cs",
+              "RelativeToolTip": "PhotoAlbumWeb\\Models\\PhotoBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T19:09:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "PhotoAlbumWeb\\Controllers\\PhotoController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAJ8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:18:57.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Views\\Photo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\Create.cshtml",
+              "RelativeToolTip": "PhotoAlbumWeb\\Views\\Photo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T20:02:59.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\List.cshtml",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Views\\Photo\\List.cshtml",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\List.cshtml",
+              "RelativeToolTip": "PhotoAlbumWeb\\Views\\Photo\\List.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T20:01:08.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhotoAlbumWeb\\Views\\Photo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\angelllinas\\Documents\\vs projects\\PhotoAlbumWeb\\PhotoAlbumWeb\\Views\\Photo\\Edit.cshtml",
+              "RelativeToolTip": "PhotoAlbumWeb\\Views\\Photo\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:54:06.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

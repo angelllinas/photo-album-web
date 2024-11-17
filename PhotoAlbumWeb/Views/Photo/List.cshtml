@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+@model IEnumerable<PhotoAlbumWeb.Models.PhotoBoard>
+<div class="glass-content">
+    <h1>Events Board</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Description</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="data:image/jpeg;base64,@(Convert.ToBase64String(item.Photo))" alt="Foto del Evento" style="max-width: 150px; height: auto;" />
+                    </td>
+                    <td>
+                        <strong>Photo description:</strong> @item.PhotoDescription <br />
+                        <strong>Event description:</strong> @item.EventDescription <br />
+                        <strong>Event location:</strong> @item.Location <br />
+                        <strong>Event date:</strong> @item.EventDate.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm">Update</a>
+                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+}

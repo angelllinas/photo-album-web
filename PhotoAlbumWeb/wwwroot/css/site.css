@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cusnav {
+    background-color: #015366 !important;
+}
+
+.nav-link.cuslink {
+    color: #A7D1D2 !important;
+    text-decoration: none;
+}
+
+    /* Estilo hover */
+    .nav-link.cuslink:hover {
+        color: #E0F4F5 !important;
+        text-decoration: underline;
+    }
+
+
+.glass-container {
+    position: relative;
+    min-height: calc(100vh - 56px); 
+    background-image: url('../images/girl_jdm.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.glass-content {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    padding: 20px 40px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #fff;
+    text-align: center;
+}

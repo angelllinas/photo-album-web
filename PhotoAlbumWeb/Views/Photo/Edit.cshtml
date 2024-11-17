@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model PhotoAlbumWeb.Models.PhotoBoard
+    <div class="glass-content">
+    <h1>Edit Event</h1>
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label for="imageFile">Photo</label>
+            <input name="imageFile" class="form-control" id="imageFile" type="file" accept="image/*" />
+            @if (Model != null && Model.Photo != null)
+            {
+                <img src="data:image/jpeg;base64,@(Convert.ToBase64String(Model.Photo))"
+                     alt="Current Photo" style="max-width: 150px; height: auto; margin-top: 10px;" />
+            }
+        </div>
+        <div class="mb-3">
+            <label>Photo Description</label>
+            <input asp-for="PhotoDescription" class="form-control" />
+            <span asp-validation-for="PhotoDescription" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label>Event Description</label>
+            <input asp-for="EventDescription" class="form-control" />
+            <span asp-validation-for="EventDescription" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label>Event Location</label>
+            <input asp-for="Location" class="form-control" />
+            <span asp-validation-for="Location" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label>Event Date</label>
+            <input asp-for="EventDate" class="form-control" type="date" />
+            <span asp-validation-for="EventDate" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+    </div>
+    @section Scripts {
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+    }
+}
